@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'DemoApp';
+  clickMessage = '';
+  parentMessage = false;
+  onClickMe() {
+    this.parentMessage = true;
+  }
+
+  // constructor(private user: UserServiceService )
+  // {
+  //   this.user.getData().subscribe
+  // }
+
+
 }
